@@ -37,7 +37,7 @@ class HomeActivity : AppCompatActivity() {
                 }
                 R.id.nav_web -> {
                     // Buka link web pakai browser HP, bukan ganti fragment
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/yg_treasure_official/"))
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gracemikha-coder"))
                     startActivity(intent)
                     false // biar tab yang nyala tetap tab sebelumnya
                 }
